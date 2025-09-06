@@ -1,4 +1,4 @@
-export interface BookData {
+interface BookData {
   id: number;
   title: string;
   subTitle: string;
@@ -7,3 +7,5 @@ export interface BookData {
   publisher: string;
   coverImgUrl: string;
 }
+
+export default BookData;
